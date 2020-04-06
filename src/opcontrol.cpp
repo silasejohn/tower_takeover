@@ -13,7 +13,8 @@ void opcontrol() {
 	int towerMode = 0, lastPos = 0;
 	bool isTrack = false;
 
-	double kP = 0.12, kP_rev = 0.2;
+	double kP = 0.12
+	double kP_rev = 0.2; //change
 
 	bool rel = false;
 
