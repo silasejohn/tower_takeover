@@ -2,13 +2,14 @@
 
 #define ARM_BOTTOM 0
 #define ARM_LOW_TOWER 1.25
-#define ARM_LOW_TOWER_MANUAL 1.25
+#define ARM_LOW_TOWER_MANUAL 1.25 //same height as descore
 #define ARM_LOW_TOWER_DESCORE 1.25
-#define ARM_MID_TOWER 1.7
+#define ARM_MID_TOWER 1.7 //same height as descore
 #define ARM_MID_TOWER_DESCORE 1.7
 
-extern pros::Motor ArmMotor;
-extern pros::ADIDigitalIn Limit;
+// no actual information is assigned yet, that will be done in the corresponding arm.cpp file (extern is global var)
+extern pros::Motor ArmMotor; //there is an instance of armMotor
+extern pros::ADIDigitalIn Limit; //there is an instance of a digital sensor
 
 class Arm {
   public:
