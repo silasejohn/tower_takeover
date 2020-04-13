@@ -13,8 +13,8 @@ extern pros::ADIDigitalIn Limit; //there is an instance of a digital sensor
 
 class Arm {
   public:
-    Arm();
-    ~Arm();
+    Arm();                                                //default constructor?
+    ~Arm();                                               //deconstructor?
 
     Arm& withTol(double tolerance_ = 0.1);
 
