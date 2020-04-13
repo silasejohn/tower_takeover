@@ -104,17 +104,17 @@ namespace macro {
         }
       }
 
-    } else {
-      if(input > 0) {
-        if(input > output + accel) output += accel;
-        else output = input;
-      }
+      } else {
+        if(input > 0) {
+          if(input > output + accel) output += accel;
+          else output = input;
+        }
 
-      if(input < 0) {
-        if(input < output - accel) output -= accel;
-        else output = input;
+        if(input < 0) {
+          if(input < output - accel) output -= accel;
+          else output = input;
+        }
       }
-    }
 
     return output;
   }
